@@ -1,0 +1,7 @@
+.App{
+  display: grid;
+  grid-template-areas: 'MenuArea MainArea';
+  grid-template-columns: 25% 75%;
+  height: 100%;
+  width: 100%;
+}

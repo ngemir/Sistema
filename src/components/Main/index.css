@@ -1,0 +1,8 @@
+.main{
+  grid-area: MainArea;
+  background-color: beige;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: 'contentArea';
+}

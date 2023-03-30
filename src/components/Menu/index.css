@@ -1,0 +1,30 @@
+.menu{
+  grid-area: MenuArea;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template-areas: 'logoArea' 'buttonArea';
+  grid-template-rows: 20% 80%;
+  background-color: lightgray;
+}
+
+.logoArea{
+  grid-area: logoArea;
+
+  /* adjust the logo to contain inside logoArea */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.buttonArea{
+  grid-area: buttonArea;
+
+  /* adjust the buttons to contain inside buttonArea */
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
